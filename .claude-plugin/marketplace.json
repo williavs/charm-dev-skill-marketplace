@@ -1,0 +1,25 @@
+{
+  "name": "charm-dev-skills",
+  "owner": {
+    "name": "Willy",
+    "email": "skills@charm-dev.local"
+  },
+  "metadata": {
+    "description": "Skills for building terminal UIs with Bubbletea and the Charm ecosystem",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "charm-dev",
+      "source": "./skills/charm-dev",
+      "description": "Build terminal UIs using Bubbletea and the Charm ecosystem (Lipgloss, Huh, Gum). Comprehensive skill with 47 Bubbletea examples, architecture guides (ELM/TEA, MVC, components), styling examples, and interactive form patterns.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Willy"
+      },
+      "category": "development",
+      "keywords": ["bubbletea", "charm", "tui", "terminal", "cli", "lipgloss", "huh", "gum", "elm-architecture"],
+      "strict": false
+    }
+  ]
+}
